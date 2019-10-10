@@ -82,3 +82,9 @@ instances:
 ---
 
 ```
+
+## Conclusion
+cloud 환경에서는 더이상 legacy 처럼 서버에 들어가서 로그를 보는 형태는 불가능하다
+로그를 동적으로 관제시스템과 연결하여 어플리케이션을 관리해야된다.
+사이드카패턴으로 application과 분리하여 지속적인 ci/cd도 가능해졌다 
+그중 td-agent-bit(fluentd-bit) - td-agent(fluentd) 의 확장성 및 성능은 정말 뛰어난 오픈소스 인것 같다.
